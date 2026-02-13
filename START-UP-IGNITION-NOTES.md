@@ -4,65 +4,42 @@
 
 ## 🔧 Internal Technical Build Documentation
 
-### 1️⃣ Verify Engine Operation (Baseline Plan)
+### 1️⃣ Engine / Sensor Baseline
 
-Run engine on OEM coils + OEM igniter. Confirm:
+- Engine: 13B-REW, ~5k miles, previous owner reports built by Rotary Performance, 3mm apex seals, ported
+- **3-bar MAP sensor kit (Banzai Racing) installed**
+- Wideband O2 sensor connected to Link G4X
+- Verify vacuum lines and all sensor connections before startup
+- Minimum sensors required for first idle:  
+  - Crank Angle Sensor (CAS)  
+  - Throttle Position Sensor (TPS)  
+  - Coolant Temperature Sensor  
+  - 3-bar MAP sensor  
+  - Wideband O2 (recommended)  
 
-- Clean start  
-- Stable idle  
-- No misfire  
-- Proper timing sync in Link G4X ECU  
-- Validate base ignition timing with timing light  
-- Confirm dwell and trigger settings in ECU  
+**Startup Verification Goals:**
 
----
-
-### 2️⃣ LS D585 Coil Conversion (Planned Upgrade)
-
-- Remove OEM igniter  
-- Unplug and isolate OEM igniter  
-- Do **not** reuse coil-side 4-pin sub-harness for triggers  
-- Repurpose igniter-side harness:  
-  - ECU ignition outputs from igniter connector → LS coil trigger wires  
-- Route directly to individual LS coil trigger wires  
-
----
-
-### 3️⃣ DIY LS Coil Harness Plan
-
-**Power:**
-
-- Switched +12V (Black/Red OEM wire)  
-- Add 15–20A fuse  
-- Run 14 AWG to LS coil power (shared pink wire)  
-
-**Grounds:**
-
-- 14 AWG from LS coils  
-- Ring terminal to engine block  
-- Do not ground through chassis alone  
-
-**Trigger Wires:**
-
-- 20 AWG from Link G4X IGN outputs  
-- Connect to unique LS trigger wires: Red, Green, Blue, Pink (thin)  
-
-**Wiring Specs:**
-
-- Power: 14 AWG  
-- Ground: 14 AWG  
-- Trigger: 20 AWG  
-- All unused OEM coil-side wires capped and isolated  
-- Keep power and trigger wiring separated to reduce interference  
-
-**Optional (Cleanest Approach):**
-
-- Consider plug-and-play igniter-delete harness instead of full DIY splice  
-- Maintain OEM harness integrity where possible  
+- Clean start and stable idle  
+- No misfires  
+- Correct timing sync in Link G4X  
+- Validate dwell and trigger settings  
+- **Use OEM igniter and coil packs for startup**  
 
 ---
 
-### 4️⃣ ECU Configuration (After LS Install)
+### 2️⃣ LS D585 Coil Conversion (Optional Buyer Upgrade)
+
+- LS coil wiring is **not currently installed**  
+- Planned wiring documented for buyer reference if they choose to upgrade:  
+  - Repurpose OEM igniter harness for LS coil triggers  
+  - Dedicated +12V fused power and engine block grounds  
+  - Trigger wires: 20 AWG from Link G4X IGN outputs to LS coil triggers  
+  - Keep OEM harness intact; unused wires capped and isolated  
+  - Optional plug-and-play igniter-delete harness for cleaner integration  
+
+---
+
+### 3️⃣ ECU Configuration (Using OEM Ignition for Startup)
 
 - Ignition Mode: Direct Spark  
 - Ignition Type: Logic Level  
@@ -72,54 +49,58 @@ Run engine on OEM coils + OEM igniter. Confirm:
 
 ---
 
-### 5️⃣ Physical Mounting Plan
+### 4️⃣ Physical Mounting / Wiring
 
-- Remote mount LS coils away from turbo heat  
-- Custom bracket solution  
-- Short, equal-length plug wires  
-- Heat shielding as needed  
+- OEM coils and igniter remain in stock location for startup  
+- LS coil mounting / bracket solution left as buyer option  
+- Heat shielding, short equal-length wires, and custom routing documented for potential future upgrade  
 
 ---
 
-### 6️⃣ Validation Checklist
+### 5️⃣ Validation Checklist
 
-- Confirm spark on all four events  
+- Confirm spark on all four events using OEM ignition  
 - Verify tachometer signal behavior  
-- Check dwell settings in ECU  
+- Check dwell and trigger settings in ECU  
 - Confirm clean idle + high-RPM stability  
-- Monitor for misfire under boost  
+- Monitor for misfire under initial startup and low boost  
 
 ---
 
-## 🚀 Future Upgrade Roadmap (Buyer-Facing Overview)
+## 🚀 Buyer-Facing Overview
 
-**Ignition System Modernization:**
+**Ignition Modernization (Optional Upgrade):**
 
-- Transition to LS smart coil setup  
-- Stronger, consistent spark delivery  
+- LS smart coil transition documented for future buyer  
+- Consistent spark delivery potential  
 - Modernized ignition architecture  
 - Improved boost reliability  
-- Cleaner engine bay wiring layout  
+- Cleaner wiring layout if installed  
 
 **Electrical Refinement:**
 
-- Dedicated fused power circuit  
-- Improved grounding strategy  
-- Cleaner harness routing  
-- Reversible integration (no OEM damage)  
+- Dedicated fused power circuit for LS coils (optional)  
+- Improved grounding plan (optional)  
+- Modular, reversible design  
 
 **Reliability Focus:**
 
-- Reduce ignition-related misfires  
-- Improve high-RPM spark stability  
-- Reduce dependency on aging OEM components  
-- Increase tuning headroom  
+- OEM ignition ensures safe startup  
+- High-RPM spark stability verified with OEM coils  
+- LS upgrade optional for tuning headroom  
 
 **Long-Term Vision:**
 
-- Prepare for standalone ECU compatibility  
-- Modular electrical system design  
-- Maintain serviceability  
-- Preserve OEM integrity wherever possible  
+- Standalone ECU compatibility preserved  
+- Modular, serviceable electrical system  
+- OEM integrity maintained  
 
 ---
+
+## ⚙️ Safety & Pre-Startup Notes
+
+- Confirm 3-bar MAP sensor reads correctly  
+- Verify wideband O2 operation  
+- Check all vacuum lines  
+- Keep initial boost low  
+- Only start engine after all minimum sensors are verified
