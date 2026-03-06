@@ -15,7 +15,7 @@
   - Throttle Position Sensor (TPS)  
   - Coolant Temperature Sensor  
   - 3-bar MAP sensor  
-  - Wideband O2 (recommended)  
+  - Wideband O2 (recommended)
 
 **Startup Verification Goals:**
 
@@ -23,7 +23,9 @@
 - No misfires  
 - Correct timing sync in Link G4X  
 - Validate dwell and trigger settings  
-- **Use OEM igniter and coil packs for startup**  
+- **Use OEM igniter and coil packs for startup**
+- Ignition switch bypassed via ignition panel (diagram found below)
+![ignition panel wiring diagram](./images/Rx7-FD3S-S6-Ignition-switch-to-switch-panel.jpg)
 
 ---
 
