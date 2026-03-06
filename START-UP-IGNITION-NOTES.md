@@ -25,7 +25,7 @@
 - Validate dwell and trigger settings  
 - **Use OEM igniter and coil packs for startup**
 - Ignition switch bypassed via ignition panel (diagram found below)
-![ignition panel wiring diagram](./images/Rx7-FD3S-S6-Ignition-switch-to-switch-panel.jpg)
+![ignition panel wiring diagram](./images/Rx7-FD3S-S6-Ignition-switch-bypass-panel-diagram.jpg)
 
 ---
 
