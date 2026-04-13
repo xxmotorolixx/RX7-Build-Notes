@@ -35,7 +35,6 @@ Current focus: minimal work remaining to get the car to fire up.
   - Wilwood proportioning valve installed
 - Brakes (rear):
   - Rear calipers rebuilt with new seals
-  - Clutch slave cylinder connected
 
 ---
 
@@ -45,22 +44,21 @@ Current focus: minimal work remaining to get the car to fire up.
   - New pilot bearing + seal
 - Clutch:
   - New clutch and pressure plate installed
-  - Clutch slave cylinder connected
+  - Clutch Master + slave cylinder connected
 - Transmission:
   - Synchromesh gear oil filled
 
 ---
 
 ## 4. Steering
-- Electric power steering (EPS) column installed (not wired yet)
-- EPS column connected to steering rack
+- Electric power steering (EPS) column installed (wired up to 3rd toggle switch)
 
 ---
 
 ## 5. Engine & Intake
 - Turbo manifold installed with new metal exhaust gaskets
-- Lower and upper intake manifold gaskets replaced
-- Fuel injectors installed
+- Lower and upper intake manifold gaskets replaced (previous upper intake gasket used / new in packaging gasket included)
+- Fuel injectors all cleaned + installed
 - Greddy pulley kit installed (water pump, alternator, pulley wheels)
 - Belt installed on Greddy pulley kit
 
@@ -73,35 +71,33 @@ Current focus: minimal work remaining to get the car to fire up.
   - Sikky
 - Engine wiring:
   - New Wiring Specialties OE+ engine harness
-  - Custom LS coil pack bracket installed
-- Driveshaft installed
-- Custom RX-8 instrument cluster mounted to RX-7
+  - Custom LS coil pack bracket included (OEM coil pack installed)
+  - New Front U-Harness (Used-good condition installed)
+- Driveshaft installed (spare included)
+- Custom RX-8 instrument cluster mounted to RX-7 (included)
 - Turbochargers and downpipe installed
 - Fuel system:
-  - Fuel pressure regulator mounted on custom bracket
-  - New fuel filter installed
-  - Fuel tank repaired
+  - Fuel pressure regulator mounted on custom bracket (fuel pressure sensor installed not wired up fully)
+  - New OE fuel filter installed
+  - Fuel soft lines replaced
   - AEM 340 L/h fuel pump installed on fuel hanger
-  - Fuel hanger attached to tank
 - Radiator, coolant hoses, and electric fan installed (not fully wired in yet)
 
 ---
 
 ## 7. Work Remaining
-- Wire in EPS column  
 - Complete wiring for radiator/electric fan  
-- Final start attempt
-
+- Complete canbus configuration for  RX-8 comms
+- Plumb vacuum lines + turbo control solenoids for turbo configuration
+- Review Link ECU base map configuration and safeguards
+- Install WideBand and canbus comms to link ecu
 ---
 
 ## 8. Notes
 - All work primarily done by hand  
-- Project evolved over more than a decade  
-- FD is currently for sale, minimal work remaining  
-- Build milestone: car now structurally and mechanically complete, awaiting final start  
+- Project evolved over 2 years
 
 ---
 
 ## 9. Links
 - Instagram: [@xmotorolix](https://www.instagram.com/xmotorolix/)  
-- Marketplace listing: [Link](https://www.facebook.com/marketplace/item/4218618588412016)
